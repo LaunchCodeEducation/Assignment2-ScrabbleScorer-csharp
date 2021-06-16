@@ -5,7 +5,7 @@ namespace Assignment2_ScrabbleScorer_csharp
 {
     class Program
     {
-
+        //Here is the original OldPointStructure dictionay
         public static Dictionary<int, string> oldPointStructure = new Dictionary<int, string>()
         {
             {1, "A, E, I, O, U, L, N, R, S, T"},
@@ -19,12 +19,6 @@ namespace Assignment2_ScrabbleScorer_csharp
 
 
 
-        //Code your InitialPrompt method here
-
-
-
-
-
 
         //Code your Transform method here
 
@@ -35,12 +29,31 @@ namespace Assignment2_ScrabbleScorer_csharp
 
         //Code your Scoring Option methods here
 
+        //SimpleScorer-----
+        public static void SimpleScorer()
+        {
+
+        }
+
+
+        //BonusVowels-----
+
+
+
+
+        //ScrabbleScorer-----
 
 
 
 
 
         //Code your ScoringAlgorithms method here
+
+
+
+
+
+        //Code your InitialPrompt method here
 
 
 
